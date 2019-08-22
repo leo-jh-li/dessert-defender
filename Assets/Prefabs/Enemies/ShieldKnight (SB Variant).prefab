@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2696183494043910990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4229619060930733830, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Name
+      value: ShieldKnight (SB Variant)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647610894031444245, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442895645502012632, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 7cbbbb80af9a9b14aaf0c35506edb6bc,
+        type: 2}
+    - target: {fileID: 6673391871563887473, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: maxHealth
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673391871563887473, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: speedLinesParticles
+      value: 
+      objectReference: {fileID: 1184072718768874689}
+    - target: {fileID: 6673391871563887473, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: moneyValue
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591550742588707231, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5909530165172498550, guid: 233b74fdb7446ae418e36912e2be0198,
+        type: 3}
+    - target: {fileID: 8121628273364213852, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 675350841498316308, guid: 3ecbb308c0417de4da58602844e48165,
+        type: 3}
+    - target: {fileID: 8121628273364213852, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8121628273364213852, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965388219477560951, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3680454607085439809, guid: 9f7b4397344fc60478da2c7e09dd13ce,
+        type: 3}
+    - target: {fileID: 6965388219477560951, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965388219477560951, guid: 4a38199307e14c348a7d6592fde00822,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a38199307e14c348a7d6592fde00822, type: 3}
+--- !u!198 &1184072718768874689 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3820300736490727311, guid: 4a38199307e14c348a7d6592fde00822,
+    type: 3}
+  m_PrefabInstance: {fileID: 2696183494043910990}
+  m_PrefabAsset: {fileID: 0}

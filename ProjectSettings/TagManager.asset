@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Bullet
+  - Treasure
+  - EnemyBase
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Enemies
+  - 
+  - 
+  - 
+  - Powerups
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Floor
+    uniqueID: 275388159
+    locked: 0
+  - name: Auras
+    uniqueID: 200923943
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Treasure
+    uniqueID: 3690996655
+    locked: 0
+  - name: Particles
+    uniqueID: 2885736599
+    locked: 0
+  - name: Bullet
+    uniqueID: 4100267767
+    locked: 0
+  - name: Fire Particles
+    uniqueID: 2054117321
+    locked: 0
+  - name: Rocket Explosion
+    uniqueID: 1441535945
+    locked: 0
+  - name: Laser
+    uniqueID: 4244640591
+    locked: 0
+  - name: UI
+    uniqueID: 2548207317
+    locked: 0
+  - name: Emotes
+    uniqueID: 4067776937
+    locked: 0
