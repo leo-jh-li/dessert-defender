@@ -410,7 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
   healthBar: {fileID: 874628176538794831}
-  maxHealth: 50
+  maxHealth: 80
   speed: 2.5
   moneyValue: 4
   itemDropChance: 0.1
