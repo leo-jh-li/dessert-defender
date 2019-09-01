@@ -12,4 +12,9 @@ public class Treasure : MonoBehaviour
 
     [Space(10)]
     public bool carried;
+    public bool lost;       // Set to true if treasure has been stolen this wave
+
+    public bool CanBePickedUp() {
+        return !carried && !lost;
+    }
 }

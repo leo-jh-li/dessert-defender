@@ -218,6 +218,7 @@ public class WaveManager : MonoBehaviour
             uiManager.UpdateHealth(gameManager.playerLives);
             Treasure treasure = gameManager.treasure.GetComponent<Treasure>();
             treasure.carried = false;
+            treasure.lost = true;
             treasure.transform.parent = null;
             Debug.Log("WAVE OVER - TREASURE LOST");
             if (gameManager.playerLives <= 0) {

@@ -105,5 +105,6 @@ public class GameManager : MonoBehaviour
 
     public void ResetTreasure() {
         treasure.transform.position = treasureStartingLocation;
+        treasure.GetComponent<Treasure>().lost = false;
     }
 }

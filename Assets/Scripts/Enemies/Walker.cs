@@ -23,7 +23,7 @@ public class Walker : Enemy
             case EnemyState.APPROACHING:
                 transform.position = transform.position + new Vector3(-GetMovement(), 0, 0);
                 // If treasure is close enough and on the floor, set destination to it instead
-                if (!treasure.carried && !destinationLocked &&
+                if (treasure.CanBePickedUp() && !destinationLocked &&
                         treasure.transform.position.x <= transform.position.x &&
                         transform.position.x <= treasure.transform.position.x + gameManager.treasureConvergenceDist) {
                     destination = gameManager.treasure.position;
@@ -55,7 +55,7 @@ public class Walker : Enemy
                 }
                 if (transform.position.x == destination.x && transform.position.y == destination.y) {
                     // Pick up treasure if it's at the destination
-                    if (!treasure.carried && treasure.transform.position == transform.position) {
+                    if (treasure.CanBePickedUp() && treasure.transform.position == transform.position) {
                         PickUpTreasure();
                         StartLeaving();
                     } else {
@@ -65,7 +65,7 @@ public class Walker : Enemy
                 break;
             case EnemyState.LEAVING:
                 // Pick up treasure if it's on the floor and this enemy walks over it
-                if (!treasure.carried &&
+                if (treasure.CanBePickedUp() &&
                         (transform.position.x <= treasure.transform.position.x && treasure.transform.position.x <= transform.position.x + GetMovement())) {
                     PickUpTreasure();
                 }
